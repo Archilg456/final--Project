@@ -54,3 +54,38 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+
+
+// let passwordInput = document.getElementById( 'txtPassword')
+// log-toggle = document.getElementById('btnToggle')
+// icon = Document.getElementById( 'eyeIcon')
+
+// function togglepassword() {
+//   if (passwordInput.type === 'password') {
+//     passwordInput.type === 'text';
+//     icon.classList.add("fa-eye-slash");
+//   } else {
+//     passwordInput.type = 'password';
+//     icon.classList.remove(fa-eye-slash);
+//   }
+// }
+// toggle.addEventListener('click', togglePassword, false);
+
+
+  // document.querySelector("#show-login").addEventListener("click", function(){
+  //   document.querySelector(".popup").classList.add("active");
+  // });
+
+  // document.querySelector(".popup .cloce-btn").addEventListener("click", function(){
+  //   document.querySelector("popup").classList.remove("active");
+  // });
+
+
+
+  
+
+
+
+
+

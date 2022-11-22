@@ -6,13 +6,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/Responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="/bower_components/alk-rex-bold/css/alk-rex-bold.min.css">
-    
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Decorall</title>
   </head>
   <body>
@@ -29,21 +26,21 @@
         </div>
         <ul class="navbar-menu">
           <li class="navbar-item">
-            <a href="#home" class="navbar-links" id="home-page">მთავარი</a>
+            <a href="#home" class="navbar-li" id="home-page">მთავარი</a>
           </li>
           <li class="navbar-item">
-            <a href="#about" class="navbar-links" id="about-page">ჩვენს შესახებ</a>
+            <a href="#about" class="navbar-li" id="about-page">ჩვენს შესახებ</a>
           </li>
           <li class="navbar-item">
-            <a href="#services" class="navbar-links" id="services-page">სერვისები</a>
+            <a href="#services" class="navbar-li" id="services-page">სერვისები</a>
           </li>
           <li class="navbar-item">
-            <a href="#contact" class="navbar-links" id="contact-page">კონტაქტი</a>
+            <a href="#contact" class="navbar-li" id="contact-page">კონტაქტი</a>
           </li>
         </ul>
-        <li class="navbar-btn">
-          <a href="#sign-up" class="button" id="signup">Sign Up</a>
-        </li>
+          <div class="navbar-btn">
+            <a href="#sign-up"  class="button" id="signup"> Sign up </a>
+          </div>
       </div>
     </nav>
   </header>
@@ -54,7 +51,7 @@
         <div class="after-header-container">
           <h1 class="after-header-heading">East or West, <span>Home</span> is Best</h1>
           <p class="after-header-description">Your Choice</p>
-          <button class="main-btn"><a href="#contact">კონტაქტი</a></button>
+          <button class="main-btn"><a href="#contact">კონტაქტი</a> </button>
         </div>
       </div> 
 
@@ -62,13 +59,13 @@
 
      <div class="main" id="about">
       <div class="main-container">
-        <div class="main-img--container">
-          <div class="main-img--card">
+        <div class="main-img-container">
+          <div class="main-img">
           </div>
         </div>
         <div class="main-content">
           <h1>რას გთავაზობთ ?</h1>
-          <h2>ავეჟის დიდი არჩევანი</h2>
+          <h2>ავეჯის დიდი არჩევანი</h2>
           <p>შეიძინეთ მაღალი ხარისხის ავეჯი ჩვენთან </p>
           <button class="main-btn"><a href="#contact">კონტაქტი</a></button>
         </div>
@@ -77,31 +74,49 @@
 
     <!-- Services  -->
 
-     <div class="services" id="services">
-      <h1>სერვისები</h1>
+    <div class="services" id="services">
       <div class="services-wrapper">
-        <div class="services-card">
-          <h2>Custom Colorways</h2>
-          <p>AI Powered technology</p>
+        <div class="card">
+          <div class="face front">
+          </div>
+          <div class="face back"> 
+          <h2>უფასო მიწოდება</h2>
+          <p>უფასო მიწოდება თბილისში </p>
           <div class="services-btn"><button>Get Started</button></div>
+          </div>
         </div>
-        <div class="services-card">
-          <h2>Are you Ready?</h2>
-          <p>Take the lepa</p>
+        <div class="card">
+          <div class="face front">
+            <img src="/img/61feytTBveL.jpg" alt="">
+          </div>
+          <div class="face back"> 
+          <h2>24/7 ონლაინ მაღაზია</h2>
+          <p>შეიძინე სასურველი ნივთი მაშინ როცა შენ გინდა </p>
           <div class="services-btn"><button>Get Started</button></div>
+          </div>
         </div>
-        <div class="services-card">
-          <h2>Full Gradients</h2>
-          <p>100 Combinations</p>
+        <div class="card">
+          <div class="face front">
+            <img src="/img/510mowjBbsL._AC_.jpg" alt="">
+          </div>
+          <div class="face back"> 
+          <h2>გარანტია</h2>
+          <p>გარანტია 1 წელი ნებისმიერ პროდუქციაზე</p>
           <div class="services-btn"><button>Get Started</button></div>
+          </div>
         </div>
-        <div class="services-card">
-          <h2>Infinite Choices</h2>
-          <p>1000's of colors</p>
+        <div class="card">
+          <div class="face front">
+            <img src="/img/soft-gatsby-style-art-deco-wallpaper-mural-wp-ou000083-31484555.jpg" alt="">
+          </div>
+          <div class="face back"> 
+          <h2>უპროცენტო განვადება</h2>
+          <p>მიიღე 0% განვადება პარტნიორ ბანკებში </p>
           <div class="services-btn"><button>Get Started</button></div>
+          </div>
         </div>
-      </div>
     </div>
+  </div>
 
     <!-- contact  -->
 
@@ -112,23 +127,20 @@
           <div class="con">
             <ul>
               <li>
-                <i class="fa-solid fa-phone"></i>
-              <a href="mailto:example@yahoo.com">Decorall2022@gmail.com</a>
+                <a href="mailto:example@yahoo.com">Decorall2022@gmail.com</a>
               </li>
               <li>
-                <i class="fa-solid fa-phone"></i>
-                <a href="tel:+995 555 000 000">+995 555 000 000 </a>
+                <a href="tel:+995555000000">+995 000 000 000 </a>
             </li>
             <li>
-              <i class="fa-regular fa-map"></i>
-              <a href="https://www.google.com/maps/place/Downtown+Chicago,+IL,+USA/@41.8791993,-87.6213968,13z/data=!4m6!3m5!1s0x880e2caf74846717:0xbc3dc7eb0e09bbfd!8m2!3d41.8756719!4d-87.6243469!16s%2Fg%2F1213h_z_" target="_blank">დიდი დიღომი არჩილ მეფის #10</a>
+                <a href="https://www.google.com/maps/place/Downtown+Chicago,+IL,+USA/@41.8791993,-87.6213968,13z/data=!4m6!3m5!1s0x880e2caf74846717:0xbc3dc7eb0e09bbfd!8m2!3d41.8756719!4d-87.6243469!16s%2Fg%2F1213h_z_" target="_blank">დიდი დიღომი არჩილ მეფის #10</a>
           </li>
             </ul>
           </div>
           </div>
-        <div class="main-img--container">
-          <div class="main-img--card" id="card-2">
-            <form action="">
+        <div class="main-img-container">
+          <div class="main-img" id="card-2">
+            <form action="#">
               <div class="input-group">
                 <input type="text"  id="name" required class="input">
                 <label for="name" class="input-label">User Name</label>
@@ -138,8 +150,12 @@
                 <label for="mail" class="input-label">Email Address</label>
               </div>
               <div class="input-group">
+                <input type="text"  id="mail" required class="input">
+                <label for="Subject" class="input-label">Subject</label>
+              </div>
+              <div class="input-group">
                 <label for="textareamessage"></label>
-                <textarea class="textarea-block" name="message" id="textareamessage"placeholder="Enter your Review.."></textarea>
+                <textarea class="textarea-block" name="message" id="textareamessage" placeholder="Enter your Review.."></textarea>
               </div>
               <button class="Send-btn" type="submit">Send</button>
             </form>
@@ -147,34 +163,34 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- Footer  -->
     
     <div class="footer-container">
       <div class="footer-links">
-        <div class="footer-link--wrapper">
-          <div class="footer-link--items">
+        <div class="footer-link">
+          <div class="footer-link-items">
             <h2>About Us</h2>
-            <a href="#contact">How it works</a> 
-            <a href="#">Testimonials</a>
-            <a href="#">Careers</a>
-             <a href="/">Terms of Service</a>
+            <a href="#contact">Text</a> 
+            <a href="#">Text</a>
+            <a href="#">Text</a>
+             <a href="#">Text</a>
           </div>
-          <div class="footer-link--items">
+          <div class="footer-link-items">
             <h2>Contact Us</h2>
             <a href="#">Contact</a> 
             <a href="#">Support</a>
-            <a href="#">Destinations</a>
+            <a href="https://www.google.com/maps/place/Downtown+Chicago,+IL,+USA/@41.8791993,-87.6213968,13z/data=!4m6!3m5!1s0x880e2caf74846717:0xbc3dc7eb0e09bbfd!8m2!3d41.8756719!4d-87.6243469!16s%2Fg%2F1213h_z_" target="_blank">Destinations</a>
           </div>
         </div>
-        <div class="footer-link--wrapper">
-          <div class="footer-link--items">
+        <div class="footer-link">
+          <div class="footer-link-items">
             <h2>Videos</h2>
-            <a href="/">Submit Video</a> 
-            <a href="/">Ambassadors</a>
-            <a href="/">Agency</a>
+            <a href="/">Video </a> 
+            <a href="/">Photo</a>
+            <a href="/">Text</a>
           </div>
-          <div class="footer-link--items">
+          <div class="footer-link-items">
             <h2>Social Media</h2>
             <a href="#">Instagram</a> 
             <a href="#">Facebook</a>
@@ -184,10 +200,19 @@
         </div>
       </div>
       <div>
-        <a href="#"  class="footer__logo" id="footer__logo">Decorall</a>
+        <div class="main-footer">
+          <h3><span>D</span>ecorAll</h3>
+          <div>
+              <a href="#"><i class="fa fa-facebook"></i></a> 
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+              <a href="#"><i class="fa fa-linkedin-square"></i></a>
+          </div>
       </div>
-      <div>
-        <p class="rights">© Decorall 2022. All rights reserved</p>
+      <div class="footer-bottom">
+          <p> copy right &copy;2022 Decorall  </p>
+      </div>
       </div>
     <script src="js/app.js"></script>
   </body>
