@@ -57,6 +57,8 @@ navLogo.addEventListener('click', hideMobileMenu);
 
 
 
+
+
 // let passwordInput = document.getElementById( 'txtPassword')
 // log-toggle = document.getElementById('btnToggle')
 // icon = Document.getElementById( 'eyeIcon')

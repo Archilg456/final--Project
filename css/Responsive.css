@@ -22,6 +22,7 @@
   .navbar-menu.active {
     background: #131313;
     top: 100%;
+    padding-left: 35%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
