@@ -389,9 +389,10 @@ transition: all 0.3s ease;
   border-radius: 10px;
   overflow: hidden;
   transition: .5s;
-  background-image: url(../img/black-and-gold-art-deco-wallpaper.jpg);
-  background-size: cover;
   transition: 0.3s ease-in;
+}
+.card img {
+  height: 425px;
 }
 .card .front {
   transform: perspective(600px) rotateY(0deg);
