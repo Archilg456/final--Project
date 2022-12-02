@@ -155,32 +155,41 @@
 }
 @media screen and (max-width: 463px) {
   .main-img-container {
-    width: 85%;
+    width: 420px;
   }
   .main-content {
     width: 85%;
   }
   
 } 
+@media screen and (max-width: 463px){
+  .main-img-container {
+    width: 380px;
+  }
+}
 @media screen and (max-width: 397px) {
   .main-img-container {
-    width: 70%;
+    width: 350px;
   }
   .main-content {
     width: 65%;
   }
-  
 }
-
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 397px){
   .main-img-container {
-    width: 68%;
+    width: 320px;
+  }
+}
+@media screen and (max-width: 338px) {
+  .main-img-container {
+    width: 300px;
+  }
+
   }
   .card {
     width: 283px;
   }
 
-}
 @media screen and (max-width: 1300px) {
   .services-wrapper {
     grid-template-columns: 1fr 1fr;
