@@ -19,6 +19,8 @@
     max-width: 1300px;
     padding: 0;
   }
+
+  }
   .navbar-menu {
     display: -ms-grid;
     display: grid;
@@ -142,6 +144,9 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .btn__2 {
+    margin-left: 25rem;
+  }
   .main-img {
     height: 425px;
     width: 425px;
@@ -150,7 +155,7 @@
     text-align: center;
     margin-bottom: 64px;
   }
-  .main-content h1 {
+  .main-content h5 {
     font-size: 40px;
     margin-top: 32px;
   }
@@ -160,6 +165,9 @@
   .main-content p {
     margin-top: 16px;
     font-size: 24px;
+  }
+  .main-content div {
+    
   }
 }
 @media screen and (max-width: 480px) {
@@ -171,7 +179,7 @@
   .main-content {
     width: 95%;
   }
-  .main-content h1 {
+  .main-content h5 {
     font-size: 32px;
     margin-top: 48px;
   }

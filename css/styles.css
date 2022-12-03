@@ -334,7 +334,7 @@ transition: all 0.3s ease;
   transition: 0.3s ease-in;
   cursor: pointer;
 }
-.main-content h1 {
+.main-content h5 {
   font-size: 32px;
   background-color: #fe3b6f;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#ff087b), to(#ed1a52));
@@ -364,6 +364,10 @@ transition: all 0.3s ease;
   margin-top: 16px;
   font-size: 32px;
   font-weight: 700;
+}
+.btn__2 {
+  max-width: 225px;
+  width: 100%;
 }
 .main-btn {
   font-size: 28.8px;
@@ -822,6 +826,9 @@ transition: all 0.3s ease;
   width: 160px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+.footer-link-items li {
+  margin-bottom: 8px;
 }
 .footer-link-items h2 {
   font-family: 'Poppins', sans-serif;
