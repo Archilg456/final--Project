@@ -236,7 +236,9 @@
   .card {
     width: 283px;
   }
-
+  .main-btn-2{
+    padding: 20px 40px;
+  }
 @media screen and (max-width: 1300px) {
   .services-wrapper {
     -ms-grid-columns: 1fr 1fr;
