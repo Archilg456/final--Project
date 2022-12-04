@@ -19,6 +19,14 @@
     max-width: 1300px;
     padding: 0;
   }
+  .navbar-item:hover{
+    color: #9518fc;
+    -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+        text-shadow: none;
+  }
+  
   .navbar-menu {
     display: -ms-grid;
     display: grid;
@@ -163,9 +171,6 @@
   .main-content p {
     margin-top: 16px;
     font-size: 24px;
-  }
-  .main-content div {
-    
   }
 }
 @media screen and (max-width: 480px) {

@@ -113,6 +113,7 @@ header {
           justify-content: center;
   width: 125px;
   height: 100%;
+  white-space: nowrap;
   
 }
 .navbar-btn {
@@ -347,6 +348,7 @@ transition: all 0.3s ease;
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
   margin-bottom: 32px;
+  padding: 5px;
 }
 .main-content h2 {
   font-size: 60px;
@@ -359,11 +361,13 @@ transition: all 0.3s ease;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
    -moz-text-fill-color: transparent;
+   padding: 5px;
 }
 .main-content p {
   margin-top: 16px;
   font-size: 32px;
   font-weight: 700;
+  padding: 5px;
 }
 .main-btn {
   font-size: 28.8px;
