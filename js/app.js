@@ -34,11 +34,6 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
-                 // Log __ In 
-
- login.addEventListener("click", function() {
-  Log_in.classList.toggle("active")
-})
 
 
 
